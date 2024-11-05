@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "arabic-dialects-qna"
+package-mode = false
+version = "0.1.0"
+description = "Assistant for QnA"
+authors = ["Kirill Chirkunov <kirill.chirkunov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+langchain = ">=0.2"
+langchain-community = "0.2.1"
+tqdm = "^4.66.6"
+googletrans = "^3.0.0"
+matplotlib = "^3.9.2"
+fasttext = "^0.9.3"
+huggingface-hub = "^0.26.2"
+deep-translator = "^1.11.4"
+spacy = "3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
